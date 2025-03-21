@@ -1,6 +1,7 @@
 # Weather App
 
 This Weather App provides weather forecasts for a specified location. It displays the weather conditions for the next 14 days, including temperature, precipitation probability, and other relevant data. The app also fetches and displays GIFs related to the current weather conditions.
+Live Site: https://weatherapplukas.netlify.app/
 
 ## Features
 
