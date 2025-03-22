@@ -1,6 +1,6 @@
 
-const apiKey = "lxZ8aCQEaCU7yLoBzY20sZF4CNdVTKwD";
 
+const apiKey = import.meta.env.VITE_GIPHY_API_KEY;
 const leftGifImage = document.getElementById("leftGif");
 const rightGifImage = document.getElementById("rightGif");
 const errorMessage = document.getElementById("errorMessage");

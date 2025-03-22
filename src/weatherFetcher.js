@@ -3,7 +3,8 @@ import {fetchGif} from "./gifFetcher";
 function formatDate(date) {
     return date.toISOString().split("T")[0]; // Extract YYYY-MM-DD
 }
-const weatherApiKEy = "JGVGGENYTVWBYYQUPHUJJDH56"
+
+const weatherApiKEy = import.meta.env.VITE_WEATHER_API_KEY;
 const modeCors = {mode: 'cors'};
 const useMockData = false; // Set this to true to use mock data
 export default async function fetchWeather(location = "New York", days = 14) {
